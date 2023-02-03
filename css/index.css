@@ -24,5 +24,99 @@
 body {
     font-size: 14px;
     background-color: var(--Cream);
-    
+    font-family: var(--Font-Monserrat);
+    color: var(--Very-Dark-Blue);
+}
+
+.card {
+    background-color: var(--White);
+    width: 344px;
+    height: 610px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+
+.card__preview {
+    width: 344px;
+    height: 240px;
+}
+
+.card__preview__image {
+    width: 344px;
+    height: 240px;
+}
+
+.card__description {
+    width: 344px;
+    height: 370px;
+}
+
+.card__description__desc-title {
+    margin: 22px 17px 14px 19px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--Dark-Grayish-Blue);
+    font-size: .91em;
+    font-family: var(--Font-Monserrat);
+    font-weight: 500;
+}
+
+.card__description__title {
+    font-family: var(--Font-Fraunces);
+    font-size: 2.3em;
+    font-weight: 700;
+    margin: 0px 17px 14px 19px;
+}
+
+.card__description__desc {
+    margin: 0px 17px 14px 19px;
+    width: 295px;
+    height: 80px;
+    color: var(--Dark-Grayish-Blue);
+    line-height: 24px;
+}
+
+.card__description__cart {
+    width: 295px;
+    height: 98px;
+    margin: 28px 17px 14px 19px;
+}
+
+.card__description__cart__price {
+    color: var(--Dark-Cyan);
+    font-family: var(--Font-Fraunces);
+    font-size: 2.3em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 17px 14px 0px;
+}
+
+.card__description__cart__price span {
+    color: var(--Dark-Grayish-Blue);
+    font-family: var(--Font-Monserrat);
+    font-weight: 500;
+    font-size: .40em;
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+
+.card__description__cart__cart {
+    display: flex;
+    width: 295px;
+    height: 48px;
+    align-items: center;
+    border: none;
+    background-color: var(--Dark-Cyan);
+    color: var(--White);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-family: var(--Font-Monserrat);
+    font-weight: 700;
 }
