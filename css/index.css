@@ -11,6 +11,7 @@
     --Very-Dark-Blue: hsl(212, 21%, 14%);
     --Dark-Grayish-Blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
+    --Dark-Grayish-Cyan: hsl(156, 42%, 18%);
 }
 
 /* Todos Los Elementos */
@@ -119,4 +120,50 @@ body {
     gap: 7px;
     font-family: var(--Font-Monserrat);
     font-weight: 700;
+    transition: all .3s;
+}
+
+.card__description__cart__cart:hover {
+    background-color: var(--Dark-Grayish-Cyan);
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    .card {
+        width: 600px;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+    }
+    .card__preview {
+        width: 300px;
+        height: 450px;
+    }
+    .card__preview__image {
+        width: 300px;
+        height: 450px;
+        content: url(../images/image-product-desktop.jpg);
+    }
+    .card__description {
+        width: 300px;
+        height: 450px;
+    }
+    .card__description__title {
+        width: 200px;
+        height: 90px;
+        margin: 0px 17px 40px 19px;
+    }
+    .card__description__desc {
+        width: 226px;
+        height: 82px;
+        margin-bottom: 35px;
+    }
+    .card__description__cart__price {
+        margin-bottom: 35px;
+    }
+    .card__description__cart__cart {
+        width: 236px;
+        height: 48px;
+        margin: 0px 10px 0px 10px;
+    }
 }
